@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:title="@string/filter_meetings"
+        app:showAsAction="ifRoom" >
+        <menu>
+            <item
+                android:id="@+id/menuItem1"
+                android:icon="@drawable/ic_baseline_room_24"
+                android:title="@string/filter_by_location"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menuItem2"
+                android:icon="@drawable/ic_baseline_calendar_today_24"
+                android:title="@string/filter_by_date"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menuItem3"
+                android:icon="@drawable/ic_delete_black_24dp"
+                android:title="@string/Clear_filter"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+</menu>
